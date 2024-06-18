@@ -1,6 +1,6 @@
 // menampilkan konten Laza For U
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('./pages/lazaforu.html')
+    fetch('/lazada_lp/pages/lazaforu.html')
         .then(response => response.text())
         .then(data => {
             // Extract the body content from the loaded HTML
